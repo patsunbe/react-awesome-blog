@@ -22,3 +22,6 @@ demo app:    https://react-awesome-blog.herokuapp.com/
    1. add context 
    2. add theme to context
    3. add button to navbar to change the theme
+3. Define Routes
+   1. Home Page
+   2. Post Page
