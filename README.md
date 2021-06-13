@@ -1,8 +1,8 @@
 # React Awesome Blog
 Build a weblog using reactjs and best frontend practice.
 
-source code: https://github.com/basir/react-awesome-blog
-demo app:    https://react-awesome-blog.herokuapp.com/
+- source code: https://github.com/basir/react-awesome-blog
+- demo app:    https://react-awesome-blog.herokuapp.com/
 
 ## What you will learn
 - Create functional components
@@ -25,3 +25,7 @@ demo app:    https://react-awesome-blog.herokuapp.com/
 3. Define Routes
    1. Home Page
    2. Post Page
+4. List Posts
+   1. define reducers
+   2. create load posts function
+   3. show loading, error and posts
