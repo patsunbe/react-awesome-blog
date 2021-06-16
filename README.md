@@ -37,3 +37,8 @@ Build a weblog using reactjs and best frontend practice.
    1. link posts in home page
    2. fetch posts from backend
    3. render post title and body
+7. Filter Posts By Keyword and Authors
+   1. Add search query to routes
+   2. implement filter by query in home screen
+   3. Add userId to routes
+   4. implement filter by user in home screen
