@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { ThemeContext } from '../ThemeContext';
 
 export default function Navbar() {
@@ -6,9 +7,9 @@ export default function Navbar() {
   return (
     <div className="header">
       <div className="header-item">
-        <a href="/">
+        <Link to="/">
           <strong>Awesome Blog</strong>
-        </a>
+        </Link>
       </div>
       <div className="header-item">
         <a href="/login">Login</a>
