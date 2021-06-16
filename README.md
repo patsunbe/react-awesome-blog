@@ -29,3 +29,7 @@ Build a weblog using reactjs and best frontend practice.
    1. define reducers
    2. create load posts function
    3. show loading, error and posts
+5. List Users
+   1. define reducers
+   2. create load users function
+   3. show loading, error and users
