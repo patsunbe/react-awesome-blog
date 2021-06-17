@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { Link, NavLink, useHistory } from 'react-router-dom';
 import { ThemeContext } from '../ThemeContext';
 
 export default function Navbar() {
@@ -31,7 +31,9 @@ export default function Navbar() {
         </form>
       </div>
       <div className="header-item">
-        <a href="/login">Login</a>
+        <NavLink to="/login" activeClassName="active">
+          Login
+        </NavLink>
         <button onClick={toggleTheme}>
           {theme === 'light' ? 'Theme:light' : 'Theme:dark'}
         </button>

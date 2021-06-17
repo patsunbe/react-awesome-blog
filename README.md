@@ -42,3 +42,8 @@ Build a weblog using reactjs and best frontend practice.
    2. implement filter by query in home screen
    3. Add userId to routes
    4. implement filter by user in home screen
+8. Login User
+   1. Create Login Page
+   2. design login form
+   3. handle login action
+   4. set user in the context
