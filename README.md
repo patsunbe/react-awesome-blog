@@ -47,3 +47,6 @@ Build a weblog using reactjs and best frontend practice.
    2. design login form
    3. handle login action
    4. set user in the context
+9. Authenticate User
+   1.  Add user to context
+   2.  create private route

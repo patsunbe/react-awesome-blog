@@ -11,7 +11,7 @@ export default function Navbar() {
     history.push(`/search/${query}`);
   };
 
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { theme, toggleTheme, user } = useContext(ThemeContext);
   return (
     <div className="header">
       <div className="header-item">
@@ -31,9 +31,20 @@ export default function Navbar() {
         </form>
       </div>
       <div className="header-item">
-        <NavLink to="/login" activeClassName="active">
-          Login
-        </NavLink>
+        {user ? (
+          <>
+            <NavLink to="/profile" activeClassName="active">
+              {user.name}
+            </NavLink>{' '}
+            <NavLink to="/create" activeClassName="active">
+              Create Post
+            </NavLink>
+          </>
+        ) : (
+          <NavLink to="/login" activeClassName="active">
+            Login
+          </NavLink>
+        )}{' '}
         <button onClick={toggleTheme}>
           {theme === 'light' ? 'Theme:light' : 'Theme:dark'}
         </button>
