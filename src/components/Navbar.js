@@ -11,7 +11,8 @@ export default function Navbar() {
     history.push(`/search/${query}`);
   };
 
-  const { theme, toggleTheme, user } = useContext(ThemeContext);
+  const { theme, toggleTheme, user, backendAPI, toggleBackendAPI } =
+    useContext(ThemeContext);
   return (
     <div className="header">
       <div className="header-item">
@@ -46,7 +47,10 @@ export default function Navbar() {
           </NavLink>
         )}{' '}
         <button onClick={toggleTheme}>
-          {theme === 'light' ? 'Theme:light' : 'Theme:dark'}
+          {theme === 'light' ? 'Theme:Light' : 'Theme:Dark'}
+        </button>{' '}
+        <button onClick={toggleBackendAPI}>
+          {backendAPI === '/api' ? 'API:Real' : 'API:Mock'}
         </button>
       </div>
     </div>

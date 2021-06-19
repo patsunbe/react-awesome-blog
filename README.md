@@ -64,5 +64,9 @@ Build a weblog using reactjs and best frontend practice.
     1.  create post model
     2.  create post list and details 
     3.  seed sample data 
+12. Switch Between Mock and Real Backend API
+    1.  add backendAPI to the context
+    2.  add switch button to navbar
+    3.  use it in the all screens
     
    
