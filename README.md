@@ -50,20 +50,19 @@ Build a weblog using reactjs and best frontend practice.
 9. Authenticate User
    1.  Add user to context
    2.  create private route
-10. Implement Backend API
+10. Create Backend API
     1.  Install express
     2.  create express app
-11. Connect to MongoDB Database
-    2.  create mongodb database on atlas cloud server
+    2.  install mongodb
     3.  create .env file and past connection uri there
-    1.  Install mongoose and dotenv
-    2.  connect to the database
-12. Create User APIs
-    1.  create user model
-    2.  create user list and details 
-13. Create Post APIs
+    4.  Install mongoose and dotenv
+    5.  connect to the database
+    6.  create user model
+    7.  create user list and details 
+    8.  seed sample data 
+11. Create Backend API - Part 2
     1.  create post model
     2.  create post list and details 
-    2.  seed sample data 
+    3.  seed sample data 
     
    
