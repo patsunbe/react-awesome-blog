@@ -9,6 +9,7 @@ import PostPage from './pages/PostPage';
 import LoginPage from './pages/LoginPage';
 import ProfilePage from './pages/ProfilePage';
 import PrivateRoute from './components/PrivateRoute';
+import CreatePostPage from './pages/CreatePostPage';
 
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -18,6 +19,10 @@ function App() {
         <Navbar />
         <div className="main">
           <Switch>
+            <PrivateRoute
+              path="/create"
+              component={CreatePostPage}
+            ></PrivateRoute>
             <PrivateRoute
               path="/profile"
               component={ProfilePage}

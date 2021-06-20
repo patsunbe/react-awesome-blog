@@ -68,5 +68,9 @@ Build a weblog using reactjs and best frontend practice.
     1.  add backendAPI to the context
     2.  add switch button to navbar
     3.  use it in the all screens
+13. Create Post
+    1.  build input form to create post
+    2.  handle input events
+    3.  call api to save the post
     
    
