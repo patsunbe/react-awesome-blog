@@ -79,4 +79,7 @@ Build a weblog using reactjs and best frontend practice.
 15. Register Screen
     1.  Copy login screen
     2.  change to register
+16. Persist Theme and API Server
+    1.  Use localStorage
+    2.  Save and retrieve Theme and API Server
    
