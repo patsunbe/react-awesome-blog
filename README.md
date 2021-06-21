@@ -76,5 +76,7 @@ Build a weblog using reactjs and best frontend practice.
     1.  build input form to update
     2.  handle input events
     3.  call api to update profile  
-    
+15. Register Screen
+    1.  Copy login screen
+    2.  change to register
    

@@ -7,6 +7,7 @@ import { ThemeContext } from './ThemeContext';
 import HomePage from './pages/HomePage';
 import PostPage from './pages/PostPage';
 import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
 import ProfilePage from './pages/ProfilePage';
 import PrivateRoute from './components/PrivateRoute';
 import CreatePostPage from './pages/CreatePostPage';
@@ -29,6 +30,9 @@ function App() {
             ></PrivateRoute>
             <Route path="/login">
               <LoginPage />
+            </Route>
+            <Route path="/register">
+              <RegisterPage />
             </Route>
             <Route path="/post/:postId">
               <PostPage />
