@@ -72,5 +72,9 @@ Build a weblog using reactjs and best frontend practice.
     1.  build input form to create post
     2.  handle input events
     3.  call api to save the post
+14. Update User Profile
+    1.  build input form to update
+    2.  handle input events
+    3.  call api to update profile  
     
    
