@@ -82,4 +82,8 @@ Build a weblog using reactjs and best frontend practice.
 16. Persist Theme and API Server
     1.  Use localStorage
     2.  Save and retrieve Theme and API Server
-   
+17. Deploy to heroku
+    1.  create heroku and mongodb account
+    2.  update server.js
+    3.  add Procfile
+    4.  deploy
