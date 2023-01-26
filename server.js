@@ -8,7 +8,9 @@ const app = express();
 app.use(express.json());
 
 mongoose
-  .connect(process.env.MONGODB_URI, {
+  .connect(
+    process.env.MONGODB_URI,
+    {
     useNewUsrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
